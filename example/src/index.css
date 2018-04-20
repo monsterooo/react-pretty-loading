@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
 }
 .example {
-  height: 100vh;
+  height: 50px;
   padding:20px;
   display: flex;
 }

@@ -4,5 +4,7 @@ export { default as BallClipRotateMultiple } from './components/BallClipRotateMu
 export { default as BallClipRotatePulse } from './components/BallClipRotatePulse';
 export { default as BallAtom } from './components/BallAtom';
 export { default as BallBeat } from './components/BallBeat';
-
-
+export { default as BallCircus } from './components/BallCircus';
+export { default as BallClimbingDot } from './components/BallClimbingDot';
+export { default as BallElasticDots } from './components/BallElasticDots';
+export { default as BallFall } from './components/BallFall';

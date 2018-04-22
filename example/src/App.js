@@ -10,6 +10,7 @@ import {
   BallClimbingDot,
   BallElasticDots,
   BallFall,
+  BallFussion,
 } from 'react-pretty-loading';
 
 export default class App extends Component {
@@ -32,6 +33,7 @@ export default class App extends Component {
         </div>
         <div className="example">
           <BallFall loading center color="#ff0066" />
+          <BallFussion loading center color="#9787ea" />
         </div>
       </div>
       

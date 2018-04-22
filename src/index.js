@@ -8,3 +8,4 @@ export { default as BallCircus } from './components/BallCircus';
 export { default as BallClimbingDot } from './components/BallClimbingDot';
 export { default as BallElasticDots } from './components/BallElasticDots';
 export { default as BallFall } from './components/BallFall';
+export { default as BallFussion } from './components/BallFussion';

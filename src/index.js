@@ -13,3 +13,5 @@ export { default as BallGridBeat } from './components/BallGridBeat';
 export { default as BallGridPulse } from './components/BallGridPulse';
 export { default as BallNewtonCradle } from './components/BallNewtonCradle';
 export { default as BallPulse } from './components/BallPulse';
+export { default as BallPulseRise } from './components/BallPulseRise';
+export { default as BallPulseSync } from './components/BallPulseSync';

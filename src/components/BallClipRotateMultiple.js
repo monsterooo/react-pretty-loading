@@ -25,8 +25,6 @@ const props = ({
 }) => {
   const BallClipRotateMultiple = css`
     position: relative;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
     font-size: 0;
@@ -36,8 +34,6 @@ const props = ({
 
     > div {
       position: relative;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
       box-sizing: border-box;
       display: inline-block;
       float: none;
@@ -50,9 +46,6 @@ const props = ({
       border-style: solid;
       border-width: 2px;
       border-radius: 100%;
-      -webkit-animation: ${rotate} 1s ease-in-out infinite;
-      -moz-animation: ${rotate} 1s ease-in-out infinite;
-      -o-animation: ${rotate} 1s ease-in-out infinite;
       animation: ${rotate} 1s ease-in-out infinite;
     }
     > div:first-child {
@@ -67,13 +60,7 @@ const props = ({
       height: ${height / 2}px;
       border-top-color: transparent;
       border-bottom-color: transparent;
-      -webkit-animation-duration: .5s;
-      -moz-animation-duration: .5s;
-      -o-animation-duration: .5s;
       animation-duration: .5s;
-      -webkit-animation-direction: reverse;
-      -moz-animation-direction: reverse;
-      -o-animation-direction: reverse;
       animation-direction: reverse;
     }
   `;

@@ -9,3 +9,7 @@ export { default as BallClimbingDot } from './components/BallClimbingDot';
 export { default as BallElasticDots } from './components/BallElasticDots';
 export { default as BallFall } from './components/BallFall';
 export { default as BallFussion } from './components/BallFussion';
+export { default as BallGridBeat } from './components/BallGridBeat';
+export { default as BallGridPulse } from './components/BallGridPulse';
+export { default as BallNewtonCradle } from './components/BallNewtonCradle';
+export { default as BallPulse } from './components/BallPulse';

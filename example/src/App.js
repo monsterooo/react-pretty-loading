@@ -11,6 +11,10 @@ import {
   BallElasticDots,
   BallFall,
   BallFussion,
+  BallGridBeat,
+  BallGridPulse,
+  BallNewtonCradle,
+  BallPulse,
 } from 'react-pretty-loading';
 
 export default class App extends Component {
@@ -34,6 +38,10 @@ export default class App extends Component {
         <div className="example">
           <BallFall loading center color="#ff0066" />
           <BallFussion loading center color="#9787ea" />
+          <BallGridBeat loading center color="#9787ea" />
+          <BallGridPulse loading center color="#9787ea" />
+          <BallNewtonCradle loading center color="#9787ea" />
+          <BallPulse loading center color="#9787ea" />
         </div>
       </div>
       

@@ -38,8 +38,6 @@ const props = ({
 }) => {
   const BallClipRotatePulse = css`
     position: relative;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
     font-size: 0;
@@ -49,8 +47,6 @@ const props = ({
     
     > div {
       position: relative;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
       box-sizing: border-box;
       display: inline-block;
       float: none;
@@ -70,17 +66,11 @@ const props = ({
       border-width: 2px;
       border-right-color: transparent;
       border-left-color: transparent;
-      -webkit-animation: ${rotate} 1s cubic-bezier(.09, .57, .49, .9) infinite;
-      -moz-animation: ${rotate} 1s cubic-bezier(.09, .57, .49, .9) infinite;
-      -o-animation: ${rotate} 1s cubic-bezier(.09, .57, .49, .9) infinite;
       animation: ${rotate} 1s cubic-bezier(.09, .57, .49, .9) infinite;
     }
     > div:last-child {
       width: ${width / 2}px;
       height: ${height / 2}px;
-      -webkit-animation: ${scale} 1s cubic-bezier(.09, .57, .49, .9) infinite;
-      -moz-animation: ${scale} 1s cubic-bezier(.09, .57, .49, .9) infinite;
-      -o-animation: ${scale} 1s cubic-bezier(.09, .57, .49, .9) infinite;
       animation: ${scale} 1s cubic-bezier(.09, .57, .49, .9) infinite;
     }
   `;

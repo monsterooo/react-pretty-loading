@@ -17,6 +17,11 @@ import {
   BallPulse,
   BallPulseRise,
   BallPulseSync,
+  BallRotate,
+  BallRunningDots,
+  BallScale,
+  BallScaleMultiple,
+  BallScalePulse,
 } from 'react-pretty-loading';
 
 export default class App extends Component {
@@ -73,6 +78,22 @@ export default class App extends Component {
           <div className="loading__item">
             <BallPulse loading center />
           </div>
+          <div className="loading__item">
+            <BallRotate loading center />
+          </div>
+          <div className="loading__item">
+            <BallRunningDots loading center />
+          </div>
+          <div className="loading__item">
+            <BallScale loading center />
+          </div>
+          <div className="loading__item">
+            <BallScaleMultiple loading center />
+          </div>
+          <div className="loading__item">
+            <BallScalePulse loading center />
+          </div>
+          
         </div>
       </div>
     )

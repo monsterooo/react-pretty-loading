@@ -15,3 +15,8 @@ export { default as BallNewtonCradle } from './components/BallNewtonCradle';
 export { default as BallPulse } from './components/BallPulse';
 export { default as BallPulseRise } from './components/BallPulseRise';
 export { default as BallPulseSync } from './components/BallPulseSync';
+export { default as BallRotate } from './components/BallRotate';
+export { default as BallRunningDots } from './components/BallRunningDots';
+export { default as BallScale } from './components/BallScale';
+export { default as BallScaleMultiple } from './components/BallScaleMultiple';
+export { default as BallScalePulse } from './components/BallScalePulse';

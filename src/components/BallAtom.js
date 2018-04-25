@@ -39,7 +39,7 @@ const props = ({
     font-size: 0;
     color: ${color};
     width: ${width}px;
-    height: ${height}px;
+    height: ${width}px;
 
     > div {
       position: relative;
@@ -115,7 +115,6 @@ export default compose(
   pure,
   defaultProps({
     width: 24,
-    height: 24,
     color: '#fff',
     loading: false,
   }),

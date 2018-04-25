@@ -1,6 +1,6 @@
 {
   "name": "react-pretty-loading",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "用于在react中显示加载动画",
   "author": "https://github.com/monsterooo",
   "license": "MIT",

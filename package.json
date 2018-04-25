@@ -52,5 +52,12 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "react",
+    "react-loading",
+    "react-pretty-loading",
+    "loading",
+    "spinner"
   ]
 }

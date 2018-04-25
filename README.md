@@ -3,7 +3,7 @@
 
 ### 动画来源
 
-感谢作者`yangshun`收集的[awesome-spinners](https://github.com/yangshun/awesome-spinners)作者收集的动画
+感谢作者`yangshun`收集的[awesome-spinners](https://github.com/yangshun/awesome-spinners)收集的动画
 
 ### 使用指南
 

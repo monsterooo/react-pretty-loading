@@ -22,6 +22,9 @@ import {
   BallScale,
   BallScaleMultiple,
   BallScalePulse,
+  BallScaleRipple,
+  BallScaleRippleMultiple,
+  BallSpin,
 } from 'react-pretty-loading';
 
 export default class App extends Component {
@@ -92,6 +95,15 @@ export default class App extends Component {
           </div>
           <div className="loading__item">
             <BallScalePulse loading center />
+          </div>
+          <div className="loading__item">
+            <BallScaleRipple loading center />
+          </div>
+          <div className="loading__item">
+            <BallScaleRippleMultiple loading center />
+          </div>
+          <div className="loading__item">
+            <BallSpin loading center />
           </div>
           
         </div>

@@ -22,4 +22,5 @@ export { default as BallScaleMultiple } from './components/BallScaleMultiple';
 export { default as BallScalePulse } from './components/BallScalePulse';
 export { default as BallScaleRipple } from './components/BallScaleRipple';
 export { default as BallScaleRippleMultiple } from './components/BallScaleRippleMultiple';
-export { default as BallSpin } from './components/BallSpin'
+export { default as BallSpin } from './components/BallSpin';
+export { default as BallSpinClockWise } from './components/BallSpinClockWise';

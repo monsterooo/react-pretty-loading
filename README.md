@@ -1,6 +1,12 @@
 # react-pretty-loading
 用于在react中显示加载动画
 
+![321eb5f6-3870-4d31-93be-c2f42b2d4ddd](https://user-images.githubusercontent.com/18432680/39483733-ebf2207e-4da5-11e8-9efd-3f4769a8914b.png)
+
+### 在线预览组件
+
+[在线预览](https://52kpm06q2k.codesandbox.io/)
+
 ### 动画来源
 
 感谢作者`yangshun`收集的[awesome-spinners](https://github.com/yangshun/awesome-spinners)收集的动画
@@ -69,9 +75,8 @@ width | 动画大小 | Number | 详情查看各个组件默认值
 * BallScale
 * BallScaleMultiple
 * BallScalePulse
+* BallScaleRipple
+* BallScaleRippleMultiple
+* BallSpin
+* BallSpinClockWise
 
-
-
-### 在线预览组件
-
-[在线预览](https://52kpm06q2k.codesandbox.io/)

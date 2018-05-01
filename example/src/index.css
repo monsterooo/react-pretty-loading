@@ -4,6 +4,17 @@ body {
   font-family: sans-serif;
   background-color: #22b7cb;
 }
+.detail textarea {
+  width: 100%;
+  height: 150px;
+  outline: none;
+  border: none;
+}
+.detail p {
+  line-height: 1;
+  font-size: 12px;
+  margin: 8px 0 4px 0;
+}
 .container {
   width: 80%;
   margin: auto;

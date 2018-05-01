@@ -6,9 +6,10 @@
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
     "react-loading": "*",
+    "react-modal": "^3.4.4",
     "react-scripts": "^1.1.1"
   },
   "scripts": {
